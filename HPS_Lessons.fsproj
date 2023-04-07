@@ -10,6 +10,7 @@
         <Compile Include="Test.fs" />
         <Compile Include="TestCortage.fs" />
         <Compile Include="TestCase2.fs" />
+        <Compile Include="TestCase3.fs" />
     </ItemGroup>
 
 </Project>
