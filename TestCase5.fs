@@ -1,4 +1,4 @@
-// module TestCase5
+ module TestCase5
 
 // 16.1
 let notDivisible = function
@@ -12,3 +12,12 @@ let  prime = function
 
 // printfn "%A" (notDivisible (5,3))
 // printfn "%A" (prime 15)
+
+let rec prime_rec_corr = function 
+  | (1, n) -> false 
+  | (k, n) -> (n % k = 0) || prime_rec_corr(k - 1, n) 
+
+let rec prime_corr = function   
+  | 1 -> false 
+  | 2 -> true 
+  | n -> not (prime_rec_corr(n / 2, n)) 

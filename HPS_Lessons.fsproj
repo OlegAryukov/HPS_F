@@ -13,6 +13,7 @@
         <Compile Include="TestCase3.fs" />
         <Compile Include="TestCase4.fs" />
         <Compile Include="TestCase5.fs" />
+        <Compile Include="TestCase6.fs" />
     </ItemGroup>
 
 </Project>
