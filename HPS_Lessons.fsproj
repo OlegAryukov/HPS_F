@@ -12,6 +12,7 @@
         <Compile Include="TestCase2.fs" />
         <Compile Include="TestCase3.fs" />
         <Compile Include="TestCase4.fs" />
+        <Compile Include="TestCase5.fs" />
     </ItemGroup>
 
 </Project>
