@@ -14,7 +14,7 @@ let rec sum2 = function
  | (m,0) -> m
  | (m,n) -> m + n + sum2(m, n-1)
  
-printfn "%d" (fibo 5)
-printfn "%d" (sum 5)
-printfn "%d" (sum2(5,5) )
+// printfn "%d" (fibo 5)
+// printfn "%d" (sum 5)
+// printfn "%d" (sum2(5,5) )
 
