@@ -1,7 +1,9 @@
 // 17.1
-let rec pow = function
-    |(s,0) -> s
-    |(s, n) -> s + pow(s, n-1)
+let rec pow s n = 
+    match n with
+    | _ when n <= 0 -> ""
+    | _ -> s + (pow s (n-1))
+
 
 // 17.2
 let rec isIthChar (s: string, c: char, n: int) = s.ToString()[n] = c
