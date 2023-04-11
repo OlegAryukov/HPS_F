@@ -1,8 +1,8 @@
 // 17.1
-let rec pow s n = 
+let rec pow s n =
     match n with
     | _ when n <= 0 -> ""
-    | _ -> s + (pow s (n-1))
+    | _ -> s + (pow s (n - 1))
 
 
 // 17.2
@@ -10,9 +10,7 @@ let rec isIthChar (s: string, c: char, n: int) = s.ToString()[n] = c
 
 // 17.3
 let rec occFromIth (s: string, c: char, n: int) =
-     s
-     |>Seq.filter(fun x' -> x' = c)
-     |>Seq.length
+    s |> Seq.filter (fun x' -> x' = c) |> Seq.length
 
 // printfn "%A" (pow ("abC",3))
 //
