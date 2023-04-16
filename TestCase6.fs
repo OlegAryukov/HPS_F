@@ -17,7 +17,7 @@ let rec occFromIth (s: string, n: int, c: char) =
 
 //printfn "%A" (pow ("abC",3))
 //
-printfn "%A" (isIthChar ("TestCase", 2, 's'))
-printfn "%A" (isIthChar ("TestCase", 10, 's'))
+//printfn "%A" (isIthChar ("TestCase", 2, 's'))
+//printfn "%A" (isIthChar ("TestCase", 10, 's'))
 //
 // printfn "%A" (occFromIth ("TestCase", 1, 's'))
