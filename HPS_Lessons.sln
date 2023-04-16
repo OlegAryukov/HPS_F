@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "HPS_Lessons", "HPS_Lessons.fsproj", "{05595170-EE10-4860-8F3D-CD50B2EF13BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05595170-EE10-4860-8F3D-CD50B2EF13BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05595170-EE10-4860-8F3D-CD50B2EF13BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05595170-EE10-4860-8F3D-CD50B2EF13BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05595170-EE10-4860-8F3D-CD50B2EF13BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD5C66D-42FA-423B-919A-61B45CB9EC1C}
+	EndGlobalSection
+EndGlobal
