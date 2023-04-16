@@ -1,0 +1,16 @@
+C:\Users\OlegPC\source\repos\HPS_F\bin\Debug\net7.0\HPS_Lessons.exe
+C:\Users\OlegPC\Source\Repos\HPS_F\bin\Debug\net7.0\HPS_Lessons.deps.json
+C:\Users\OlegPC\Source\Repos\HPS_F\bin\Debug\net7.0\HPS_Lessons.runtimeconfig.json
+C:\Users\OlegPC\source\repos\HPS_F\bin\Debug\net7.0\HPS_Lessons.dll
+C:\Users\OlegPC\source\repos\HPS_F\bin\Debug\net7.0\HPS_Lessons.pdb
+C:\Users\OlegPC\source\repos\HPS_F\bin\Debug\net7.0\FSharp.Core.dll
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.fsproj.AssemblyReference.cache
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.AssemblyInfoInputs.cache
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.AssemblyInfo.fs
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.fsproj.CoreCompileInputs.cache
+C:\Users\OlegPC\Source\Repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.fsproj.CopyComplete
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.dll
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\refint\HPS_Lessons.dll
+C:\Users\OlegPC\source\repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.pdb
+C:\Users\OlegPC\Source\Repos\HPS_F\obj\Debug\net7.0\HPS_Lessons.genruntimeconfig.cache
+C:\Users\OlegPC\Source\Repos\HPS_F\obj\Debug\net7.0\ref\HPS_Lessons.dll

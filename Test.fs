@@ -9,11 +9,11 @@ module Test
     /// meaning that it will work with any type.
     let swapElems (a, b) = (b, a)
 
-    printfn $"The result of swapping (1, 2) is {(swapElems (1,2))}"
+    //printfn $"The result of swapping (1, 2) is {(swapElems (1,2))}"
 
     /// A tuple consisting of an integer, a string,
     /// and a double-precision floating point number.
     let tuple2 = (1, "fred", 3.1415)
 
-    printfn $"tuple1: {tuple1}\ttuple2: {tuple2}"
+    //printfn $"tuple1: {tuple1}\ttuple2: {tuple2}"
 

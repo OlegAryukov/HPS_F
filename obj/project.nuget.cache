@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "3N2lpCpHU51I/f2G+IKB+Tz1vig1Aq6cMCLD112u6BaZBAJuYnxXENa69QB5CO8v7JSvxx86647LHEKkqUMaeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OlegPC\\source\\repos\\HPS_F\\HPS_Lessons.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OlegPC\\.nuget\\packages\\fsharp.core\\4.0.0.1\\fsharp.core.4.0.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"FSharp.Core 4.0.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "FSharp.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

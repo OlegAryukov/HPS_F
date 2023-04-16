@@ -23,7 +23,7 @@ module TestCortage
         let result = List.map addOne squares
         result
 
-    printfn $"processing {numbers} through 'squareOddValuesAndAddOne' produces: {squareOddValuesAndAddOne numbers}"
+    //printfn $"processing {numbers} through 'squareOddValuesAndAddOne' produces: {squareOddValuesAndAddOne numbers}"
     
     /// A shorter way to write 'squareOddValuesAndAddOne' is to nest each
     /// sub-result into the function calls themselves.
@@ -33,7 +33,7 @@ module TestCortage
     let squareOddValuesAndAddOneNested values = 
         List.map addOne (List.map square (List.filter isOdd values))
 
-    printfn $"processing {numbers} through 'squareOddValuesAndAddOneNested' produces: {squareOddValuesAndAddOneNested numbers}"
+   // printfn $"processing {numbers} through 'squareOddValuesAndAddOneNested' produces: {squareOddValuesAndAddOneNested numbers}"
 
     /// A preferred way to write 'squareOddValuesAndAddOne' is to use F# pipe operators.
     /// This allows you to avoid creating intermediate results, but is much more readable
@@ -44,7 +44,7 @@ module TestCortage
         |> List.map square
         |> List.map addOne
 
-    printfn $"processing {numbers} through 'squareOddValuesAndAddOnePipeline' produces: {squareOddValuesAndAddOnePipeline numbers}"
+    //printfn $"processing {numbers} through 'squareOddValuesAndAddOnePipeline' produces: {squareOddValuesAndAddOnePipeline numbers}"
 
     /// You can shorten 'squareOddValuesAndAddOnePipeline' by moving the second `List.map` call
     /// into the first, using a Lambda Function.
@@ -56,7 +56,7 @@ module TestCortage
         |> List.filter isOdd
         |> List.map(fun x -> x |> square |> addOne)
 
-    printfn $"processing {numbers} through 'squareOddValuesAndAddOneShorterPipeline' produces: {squareOddValuesAndAddOneShorterPipeline numbers}"
+    //printfn $"processing {numbers} through 'squareOddValuesAndAddOneShorterPipeline' produces: {squareOddValuesAndAddOneShorterPipeline numbers}"
 
     /// Lastly, you can eliminate the need to explicitly take 'values' in as a parameter by using '>>'
     /// to compose the two core operations: filtering out even numbers, then squaring and adding one.
@@ -74,5 +74,5 @@ module TestCortage
     let squareOddValuesAndAddOneComposition =
         List.filter isOdd >> List.map (square >> addOne)
 
-    printfn $"processing {numbers} through 'squareOddValuesAndAddOneComposition' produces: {squareOddValuesAndAddOneComposition numbers}"
+    //printfn $"processing {numbers} through 'squareOddValuesAndAddOneComposition' produces: {squareOddValuesAndAddOneComposition numbers}"
 
